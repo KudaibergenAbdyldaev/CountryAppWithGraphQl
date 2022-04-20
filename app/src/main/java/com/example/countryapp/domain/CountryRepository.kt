@@ -1,5 +1,5 @@
 package com.example.countryapp.domain
 
 interface CountryRepository {
-    fun getCountries(): List<Country>
+    suspend fun getCountries(): List<Country>
 }
